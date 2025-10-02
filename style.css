@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #edf3f8;
+    font-family: "DM Serif Display", serif;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.t{
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: #36536B;
+}
+.start{
+    display: flex;
+    gap: 55px;
+}
+button{
+    width: 173px;
+    height: 38px;
+    background-color: #BA4270;
+    border-radius: 20px;
+    border: 1px solid #BA4270;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between ;
+    padding: 20px;
+}
+.cl{
+    font-size: 66px;
+    width: 546px;
+    height: 243px;
+    color: #36536B;
+    margin-top: 55px;
+}
+.phone{
+    display: flex;
+}
+.star{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px ;
+    flex-direction: column  ;
+}
+.code{
+    margin-top: 100px ;
+    display: flex;
+    color: #36536B;
+    margin-top: 55px;
+}
+.o{
+    font-size: 48px;
+}
+.buy{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 200px;
+    color: #36536B;
+    margin-bottom: 100px;
+    padding-top: 100px;
+}
+footer{
+    background-color: #1b262f;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.in{
+    column-gap: 22px;
+}
+@media (max-width:960px){
+    .phone{
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .code{
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+
+}
+@media (max-width:665px){
+    .phone{
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .pk{
+        width: 170px ;
+    }
+    .cl{
+        font-size: 33px;
+        text-align: center;
+        width: 300px;
+    }
+    .i{
+        width: 170px;
+    }
+    .code{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .buy{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .start{
+        display: none;
+    }
+    .t{
+        display: block;
+    }
+    .footer{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tee{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .u{
+            width: 100px;
+    }
+
+}
